@@ -38,6 +38,11 @@ namespace OnSale.Web.Helpers
             return await UploadStreamAsync(stream, containerName);
         }
 
+        public Task<Guid> UploadBlobAsync(object imageFile, string v)
+        {
+            throw new NotImplementedException();
+        }
+
         private async Task<Guid> UploadStreamAsync(Stream stream, string containerName)
         {
             Guid name = Guid.NewGuid();
