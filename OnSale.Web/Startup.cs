@@ -48,17 +48,17 @@ namespace OnSale.Web
                 cfg.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
 
-             services.AddAuthentication()
-            .AddCookie()
-            .AddJwtBearer(cfg =>
-            {
-                cfg.TokenValidationParameters = new TokenValidationParameters
-                {
-                    ValidIssuer = Configuration["Tokens:Issuer"],
-                    ValidAudience = Configuration["Tokens:Audience"],
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Tokens:Key"]))
-                };
-            });
+            services.AddAuthentication()
+           .AddCookie()
+           .AddJwtBearer(cfg =>
+           {
+               cfg.TokenValidationParameters = new TokenValidationParameters
+               {
+                   ValidIssuer = Configuration["Tokens:Issuer"],
+                   ValidAudience = Configuration["Tokens:Audience"],
+                   IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Tokens:Key"]))
+               };
+           });
 
             services.AddTransient<SeedDb>();
             services.AddScoped<IBlobHelper, BlobHelper>();
