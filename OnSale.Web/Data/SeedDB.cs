@@ -59,7 +59,7 @@ namespace OnSale.Web.Data
                     Address = address,
                     Document = document,
                     City = _context.Cities.FirstOrDefault(),
-                    UserType = (Microsoft.VisualStudio.Services.UserMapping.UserType)userType
+                    UserType = userType
                 };
 
                 await _userHelper.AddUserAsync(user, "123456");

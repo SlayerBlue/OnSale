@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.VisualStudio.Services.UserMapping;
+
 using OnSale.Common.Entities;
+using OnSale.Common.Enums;
 using System;
 using System.ComponentModel.DataAnnotations;
 
