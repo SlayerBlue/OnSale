@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace Onsale.Prism.iOS
+namespace OnSale.Prism.iOS
 {
     public class Application
     {

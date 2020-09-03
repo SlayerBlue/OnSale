@@ -2,7 +2,7 @@ using Android.App;
 using Android.Content;
 using AndroidX.AppCompat.App;
 
-namespace Onsale.Prism.Droid
+namespace OnSale.Prism.Droid
 {
     [Activity(Theme = "@style/MainTheme.Splash",
               MainLauncher = true,

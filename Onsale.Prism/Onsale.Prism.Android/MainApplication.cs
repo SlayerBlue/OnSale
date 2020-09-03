@@ -2,7 +2,7 @@ using System;
 using Android.App;
 using Android.Runtime;
 
-namespace Onsale.Prism.Droid
+namespace OnSale.Prism.Droid
 {
     [Application(
         Theme = "@style/MainTheme"
