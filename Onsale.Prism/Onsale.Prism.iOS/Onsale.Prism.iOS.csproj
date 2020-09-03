@@ -99,87 +99,75 @@
     <MtouchEnableSGenConc>true</MtouchEnableSGenConc>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Implementations\Localize.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <LinkDescription Include="LinkerSettings.xml" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <ITunesArtwork Include="iTunesArtwork" />
+    <ITunesArtwork Include="iTunesArtwork%402x" />
   </ItemGroup>
   <ItemGroup>
-    <ImageAsset Include="Assets.xcassets\Contents.json">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-20x20@1x.png">
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-20x20@1x2.png">
       <Visible>false</Visible>
     </ImageAsset>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-20x20@2x.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-20x20@3x.png">
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-20x20@2x1.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-29x29@1x.png">
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-20x20@3x1.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-29x29@2x.png">
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-29x29@1x1.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-29x29@3x.png">
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-29x29@2x1.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-40x40@1x.png">
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-29x29@2x2.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-40x40@2x.png">
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-29x29@3x1.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-40x40@3x.png">
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-40x40@1x1.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-57x57@1x.png">
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-40x40@2x1.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-57x57@2x.png">
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-40x40@2x2.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-60x60@1x.png">
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-40x40@3x1.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-60x60@2x.png">
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-60x60@2x1.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-60x60@3x.png">
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-60x60@3x1.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-72x72@1x.png">
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-76x76@1x1.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-72x72@2x.png">
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-76x76@2x1.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-76x76@1x.png">
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-83.5x83.5@2x1.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-76x76@2x.png">
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\ItunesArtwork@2x1.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-76x76@3x.png">
+    <ImageAsset Include="Assets.xcassets\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-83.5x83.5@2x.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-Small-50x50@1x.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-Small-50x50@2x.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\ItunesArtwork@2x.png">
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
   </ItemGroup>
@@ -212,6 +200,10 @@
     <PackageReference Include="Prism.DryIoc.Forms" Version="7.2.0.1422" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\OnSale.Common\OnSale.Common.csproj">
+      <Project>{4ECA691A-A590-4BA2-85B9-150100F2EE37}</Project>
+      <Name>OnSale.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\OnSale.Prism\OnSale.Prism.csproj">
       <Project>{A682884C-CB44-4A89-B752-27BB634E0ABE}</Project>
       <Name>OnSale.Prism</Name>
