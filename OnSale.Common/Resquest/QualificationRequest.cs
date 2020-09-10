@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace OnSale.Common.Responses
+namespace OnSale.Common.Resquest
 {
     public class QualificationRequest
     {
@@ -13,5 +13,4 @@ namespace OnSale.Common.Responses
 
         public string Remarks { get; set; }
     }
-
 }
