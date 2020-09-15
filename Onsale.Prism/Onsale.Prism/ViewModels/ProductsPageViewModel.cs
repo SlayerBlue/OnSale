@@ -1,5 +1,4 @@
-﻿using OnSale.Common.Entities;
-using OnSale.Common.Responses;
+﻿using OnSale.Common.Responses;
 using OnSale.Common.Services;
 using OnSale.Prism.Helpers;
 using OnSale.Prism.ItemViewModels;
@@ -35,7 +34,7 @@ namespace OnSale.Prism.ViewModels
         {
             get => _isRunning;
             set => SetProperty(ref _isRunning, value);
-        }    
+        }
 
         public DelegateCommand SearchCommand => _searchCommand ?? (_searchCommand = new DelegateCommand(ShowProducts));
 
@@ -77,7 +76,7 @@ namespace OnSale.Prism.ViewModels
             }
 
             _myProducts = (List<ProductResponse>)response.Result;
-            ShowProducts();          
+            ShowProducts();
 
         }
         private void ShowProducts()
@@ -93,7 +92,8 @@ namespace OnSale.Prism.ViewModels
                     IsStarred = p.IsStarred,
                     Name = p.Name,
                     Price = p.Price,
-                    ProductImages = p.ProductImages
+                    ProductImages = p.ProductImages,
+                    Qualifications = p.Qualifications
                 })
                 .ToList());
 
@@ -109,7 +109,8 @@ namespace OnSale.Prism.ViewModels
                     IsStarred = p.IsStarred,
                     Name = p.Name,
                     Price = p.Price,
-                    ProductImages = p.ProductImages
+                    ProductImages = p.ProductImages,
+                    Qualifications = p.Qualifications
                 })
                 .Where(p => p.Name.ToLower().Contains(Search.ToLower()))
                 .ToList());
