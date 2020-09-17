@@ -9,6 +9,7 @@
 
             <!-- Parameters -->
             <x:String x:Key="UrlAPI">https://onsalewebslayer.azurewebsites.net</x:String>
+            <x:String x:Key="UrlNoImage">https://onsalewebslayer.azurewebsites.net/images/noimage.png</x:String>
 
             <!-- Colors -->
             <Color x:Key="ColorBackground">#C2C0C1</Color>

@@ -87,6 +87,167 @@ namespace OnSale.Prism.Helpers
 
         public static string Save => Resource.Save;
 
+        public static string Register => Resource.Register;
+
+        public static string Document => Resource.Document;
+
+        public static string DocumentError => Resource.DocumentError;
+
+        public static string DocumentPlaceHolder => Resource.DocumentPlaceHolder;
+
+        public static string FirstName => Resource.FirstName;
+
+        public static string FirstNameError => Resource.FirstNameError;
+
+        public static string FirstNamePlaceHolder => Resource.FirstNamePlaceHolder;
+
+        public static string LastName => Resource.LastName;
+
+        public static string LastNameError => Resource.LastNameError;
+
+        public static string LastNamePlaceHolder => Resource.LastNamePlaceHolder;
+
+        public static string Address => Resource.Address;
+
+        public static string AddressError => Resource.AddressError;
+
+        public static string AddressPlaceHolder => Resource.AddressPlaceHolder;
+
+        public static string Phone => Resource.Phone;
+
+        public static string PhoneError => Resource.PhoneError;
+
+        public static string PhonePlaceHolder => Resource.PhonePlaceHolder;
+
+        public static string City => Resource.City;
+
+        public static string CityError => Resource.CityError;
+
+        public static string CityPlaceHolder => Resource.CityPlaceHolder;
+
+        public static string Department => Resource.Department;
+
+        public static string DepartmentError => Resource.DepartmentError;
+
+        public static string DepartmentPlaceHolder => Resource.DepartmentPlaceHolder;
+
+        public static string Country => Resource.Country;
+
+        public static string CountryError => Resource.CountryError;
+
+        public static string CountryPlaceHolder => Resource.CountryPlaceHolder;
+
+        public static string PasswordConfirm => Resource.PasswordConfirm;
+
+        public static string PasswordConfirmError1 => Resource.PasswordConfirmError1;
+
+        public static string PasswordConfirmError2 => Resource.PasswordConfirmError2;
+
+        public static string PasswordConfirmPlaceHolder => Resource.PasswordConfirmPlaceHolder;
+
+        public static string Error001 => Resource.Error001;
+
+        public static string Error002 => Resource.Error002;
+
+        public static string Error003 => Resource.Error003;
+
+        public static string Error004 => Resource.Error004;
+
+        public static string Ok => Resource.Ok;
+
+        public static string RegisterMessge => Resource.RegisterMessge;
+
+        public static string PictureSource => Resource.PictureSource;
+
+        public static string Cancel => Resource.Cancel;
+
+        public static string FromCamera => Resource.FromCamera;
+
+        public static string FromGallery => Resource.FromGallery;
+
+        public static string NoCameraSupported => Resource.NoCameraSupported;
+
+        public static string NoGallerySupported => Resource.NoGallerySupported;
+
+        public static string RecoverPassword => Resource.RecoverPassword;
+
+        public static string RecoverPasswordMessage => Resource.RecoverPasswordMessage;
+
+        public static string ChangePassword => Resource.ChangePassword;
+
+        public static string ChangeUserMessage => Resource.ChangeUserMessage;
+
+        public static string ConfirmNewPassword => Resource.ConfirmNewPassword;
+
+        public static string ConfirmNewPasswordError1 => Resource.ConfirmNewPasswordError1;
+
+        public static string ConfirmNewPasswordError2 => Resource.ConfirmNewPasswordError2;
+
+        public static string ConfirmNewPasswordPlaceHolder => Resource.ConfirmNewPasswordPlaceHolder;
+
+        public static string CurrentPassword => Resource.CurrentPassword;
+
+        public static string CurrentPasswordError => Resource.CurrentPasswordError;
+
+        public static string CurrentPasswordPlaceHolder => Resource.CurrentPasswordPlaceHolder;
+
+        public static string NewPassword => Resource.NewPassword;
+
+        public static string NewPasswordError => Resource.NewPasswordError;
+
+        public static string NewPasswordPlaceHolder => Resource.NewPasswordPlaceHolder;
+
+        public static string Error005 => Resource.Error005;
+
+        public static string ChangePassworrdMessage => Resource.ChangePassworrdMessage;
+
+        public static string Quantity => Resource.Quantity;
+
+        public static string QuantityError => Resource.QuantityError;
+
+        public static string QuantityPlaceHolder => Resource.QuantityPlaceHolder;
+
+        public static string AddToCartMessage => Resource.AddToCartMessage;
+
+        public static string ProductExistInOrder => Resource.ProductExistInOrder;
+
+        public static string Value => Resource.Value;
+
+        public static string FinishOrder => Resource.FinishOrder;
+
+        public static string Yes => Resource.Yes;
+
+        public static string No => Resource.No;
+
+        public static string ClearAllConfirm => Resource.ClearAllConfirm;
+
+        public static string Total => Resource.Total;
+
+        public static string Items => Resource.Items;
+
+        public static string Delete => Resource.Delete;
+
+        public static string DeleteProductInOrderConfirm => Resource.DeleteProductInOrderConfirm;
+
+        public static string ModifyOrder => Resource.ModifyOrder;
+
+        public static string FinishOrderMessage => Resource.FinishOrderMessage;
+
+        public static string PaymentMethod => Resource.PaymentMethod;
+
+        public static string PaymentMethodError => Resource.PaymentMethodError;
+
+        public static string PaymentMethodPlaceHolder => Resource.PaymentMethodPlaceHolder;
+
+        public static string Cash => Resource.Cash;
+
+        public static string CreditCard => Resource.CreditCard;
+
+        public static string DeliveryAddress => Resource.DeliveryAddress;
+
+        public static string DeliveryAddressError => Resource.DeliveryAddressError;
+
+        public static string DeliveryAddressPlaceHolder => Resource.DeliveryAddressPlaceHolder;
 
     }
 

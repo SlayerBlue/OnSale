@@ -7,6 +7,8 @@ using Xamarin.Essentials.Implementation;
 using Xamarin.Forms;
 using OnSale.Common.Services;
 using Syncfusion.Licensing;
+using OnSale.Prism.Helpers;
+using OnSale.Common.Helpers;
 
 namespace OnSale.Prism
 {
@@ -29,6 +31,10 @@ namespace OnSale.Prism
         {
             containerRegistry.RegisterSingleton<IAppInfo, AppInfoImplementation>();
             containerRegistry.Register<IApiService, ApiService>();
+            containerRegistry.Register<IRegexHelper, RegexHelper>();
+            containerRegistry.Register<IFilesHelper, FilesHelper>();
+            containerRegistry.Register<ICombosHelper, CombosHelper>();
+
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
             containerRegistry.RegisterForNavigation<ProductsPage, ProductsPageViewModel>();
@@ -42,6 +48,12 @@ namespace OnSale.Prism
             containerRegistry.RegisterForNavigation<QualificationDetailPage, QualificationDetailPageViewModel>();
             containerRegistry.RegisterForNavigation<ProductTabbedPage, ProductTabbedPageViewModel>();
             containerRegistry.RegisterForNavigation<AddQualificationPage, AddQualificationPageViewModel>();
+            containerRegistry.RegisterForNavigation<RegisterPage, RegisterPageViewModel>();
+            containerRegistry.RegisterForNavigation<RecoverPasswordPage, RecoverPasswordPageViewModel>();
+            containerRegistry.RegisterForNavigation<ChangePasswordPage, ChangePasswordPageViewModel>();
+            containerRegistry.RegisterForNavigation<AddToCartPage, AddToCartPageViewModel>();
+            containerRegistry.RegisterForNavigation<ModifiyOrderPage, ModifiyOrderPageViewModel>();
+            containerRegistry.RegisterForNavigation<FinishOrderPage, FinishOrderPageViewModel>();
         }
     }
 }
